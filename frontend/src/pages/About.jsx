@@ -3,14 +3,20 @@ const About = () => {
     {
       school: "JSSS&TU (SJCE)",
       degree: "B.E IN COMPUTER SCIENCE",
-      year: "2020 - 2024",
+      year: "2019 - 2025",
       result: "CGPA-8.55"
     },
     {
       school: "Marimallappa's PU College",
       degree: "II-PUC",
-      year: "2020",
-      result: "95.8%"
+      year: "2019",
+      result: "95.6%"
+    },
+    {
+      school: "JSS High School",
+      degree: "SSLC",
+      year: "2017",
+      result: "96.8%"
     }
   ];
 

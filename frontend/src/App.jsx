@@ -1,8 +1,11 @@
 import Navbar from './components/Navbar';
+import About from './pages/About';
+import Skills from './pages/Skills';
+import Projects from './pages/Projects';
 
 const Hero = () => {
   return (
-    <section className="pt-32 pb-20 bg-gradient-to-b from-blue-50 to-white min-h-screen">
+    <section className="pt-32 pb-20 bg-linear-to-b from-blue-50 to-white">
       <div className="max-w-7xl mx-auto px-4 text-center">
         <h1 className="text-5xl md:text-7xl font-extrabold text-slate-900 mb-6">
           Hi, I'm <span className="text-blue-600">Jayashankara M</span>
@@ -30,6 +33,9 @@ function App() {
       <Navbar />
       <main>
         <Hero />
+        <About />
+        <Skills />
+        <Projects />
       </main>
       <footer className="py-10 text-center border-t border-slate-100 text-slate-500 text-sm">
         © {new Date().getFullYear()} Jayashankara M. Built with MERN Stack.
